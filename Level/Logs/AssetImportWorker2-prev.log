@@ -1,0 +1,391 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/peace/Documents/indv_work/Level
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55921
+Successfully changed project path to: C:/Users/peace/Documents/indv_work/Level
+C:/Users/peace/Documents/indv_work/Level
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [972] Host "[IP] 192.168.180.225 [Port] 0 [Flags] 2 [Guid] 2144226264 [EditorId] 2144226264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BF80HA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [972] Host "[IP] 192.168.180.225 [Port] 0 [Flags] 2 [Guid] 2144226264 [EditorId] 2144226264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BF80HA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 201.81 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/peace/Documents/indv_work/Level/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008035 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 238 ms
+Refreshing native plugins compatible for Editor in 177.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1017ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (328ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (178ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 168.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1739ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1500ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (979ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (599ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5012 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5464.
+Memory consumption went from 214.4 MB to 213.7 MB.
+Total: 3.985800 ms (FindLiveObjects: 0.389300 ms CreateObjectMapping: 0.310400 ms MarkObjects: 2.977600 ms  DeleteObjects: 0.307600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87096.001802 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/building-restaurant-apocalypse.prefab
+  artifactKey: Guid(7fc340eccf4062f468339ec617a229b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/building-restaurant-apocalypse.prefab using Guid(7fc340eccf4062f468339ec617a229b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ad01630bcdebf9d07a8d1d691917f5') in 0.487978 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.886260 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/car-truck-tanker-destroyed-apocalypse.prefab
+  artifactKey: Guid(363f23343115a4b4ea504e40afdc6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/car-truck-tanker-destroyed-apocalypse.prefab using Guid(363f23343115a4b4ea504e40afdc6b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd02c19a47bfe0d09ad14772730311e') in 0.028112 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/chimney-big-demaged.prefab
+  artifactKey: Guid(86e4384e858fa0d45aae1d91b777b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/chimney-big-demaged.prefab using Guid(86e4384e858fa0d45aae1d91b777b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e86619f5905829a8e1e698981c23d4') in 0.039281 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.283118 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/chimney-big-torndown.prefab
+  artifactKey: Guid(d953ae1d705605e4982665cec65b3b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/chimney-big-torndown.prefab using Guid(d953ae1d705605e4982665cec65b3b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89aab0bcf63c796b0afed09ceb04f9c8') in 0.032751 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/crate-supply-parachute.prefab
+  artifactKey: Guid(2cfefe2e5209fcd4a96bed6bb91d4c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/crate-supply-parachute.prefab using Guid(2cfefe2e5209fcd4a96bed6bb91d4c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998846f304e902d44429c2cd80b5b30d') in 0.040327 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.600879 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/crutch-axillary.prefab
+  artifactKey: Guid(cd8df584584dc114082ba76d9c161199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/crutch-axillary.prefab using Guid(cd8df584584dc114082ba76d9c161199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c252a56f7efca1e2400bb6f40016f467') in 0.030705 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/garbage-open-b.prefab
+  artifactKey: Guid(d1ba70828c7586e4c9d98c24e3494c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/garbage-open-b.prefab using Guid(d1ba70828c7586e4c9d98c24e3494c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89642914a808ca56e8570496ed4f4a8') in 0.040243 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/garbage-open-a.prefab
+  artifactKey: Guid(0289c362412c33a4bbc391fe1dcab767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/garbage-open-a.prefab using Guid(0289c362412c33a4bbc391fe1dcab767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17381b5604fedc95fef170356d3a25f0') in 0.037049 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/garbage-pile.prefab
+  artifactKey: Guid(ad6f0ee9b578d9a42b05bcc104f6062c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/garbage-pile.prefab using Guid(ad6f0ee9b578d9a42b05bcc104f6062c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dea75f398b5397535cec9accfeaf6b') in 0.038941 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 14.991065 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/industry-factory-hall-apocalypse.prefab
+  artifactKey: Guid(808f5fb5221fd7144bcebcf413b26c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/industry-factory-hall-apocalypse.prefab using Guid(808f5fb5221fd7144bcebcf413b26c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060ceeec1c00513ccf6d79a393e86ebd') in 0.028333 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/iv-pole-water-full.prefab
+  artifactKey: Guid(fda11cdc6ae84bd4f8114683a2146afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/iv-pole-water-full.prefab using Guid(fda11cdc6ae84bd4f8114683a2146afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c684c50636fd9f80dcabdf9370efa86') in 0.038319 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/lamp-road-apocalypse-b.prefab
+  artifactKey: Guid(c9ba6f970df871c438110add096ec138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/lamp-road-apocalypse-b.prefab using Guid(c9ba6f970df871c438110add096ec138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38e79339897733a9ef0a81473797d1') in 0.035997 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/lamp-road-apocalypse-a.prefab
+  artifactKey: Guid(29e3f0cd2b2253c479852130a5d13d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/lamp-road-apocalypse-a.prefab using Guid(29e3f0cd2b2253c479852130a5d13d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521989d80a20fea9ccb783aac5a9d8dc') in 0.038800 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 44.374988 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/lamp-road-double-apocalypse-a.prefab
+  artifactKey: Guid(58338da4fb99fd0499f50d5c5db2a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/lamp-road-double-apocalypse-a.prefab using Guid(58338da4fb99fd0499f50d5c5db2a2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e6a4ef39181a4697df6246bdf33067') in 0.028934 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/mainroad-sign-green-apocalypse-b.prefab
+  artifactKey: Guid(863396e218063ae459704df0a09e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/mainroad-sign-green-apocalypse-b.prefab using Guid(863396e218063ae459704df0a09e560c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce642345eea41260b07292f1016c97ec') in 0.034681 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-chest-fat-dead.prefab
+  artifactKey: Guid(1945b6979fa2c94499c95599cdd5adb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-chest-fat-dead.prefab using Guid(1945b6979fa2c94499c95599cdd5adb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ec342b60c4da1b16b229a592283cc6') in 0.030331 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.352902 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-construction-worker-dead-a.prefab
+  artifactKey: Guid(4a74ebcbfcc73f54bb0bd0c60fbe9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-construction-worker-dead-a.prefab using Guid(4a74ebcbfcc73f54bb0bd0c60fbe9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b002048d0fe64eef22f49083e5f321') in 0.027262 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-pedestrian_dead-b.prefab
+  artifactKey: Guid(f0b0061092f9c63419feddbc0bf24e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-pedestrian_dead-b.prefab using Guid(f0b0061092f9c63419feddbc0bf24e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6654d92cecda530e50a7cc5be678802d') in 0.035031 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-pedestrian_dead-c.prefab
+  artifactKey: Guid(1c9ae14ee9f0a6f478bffd8a5d667e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-pedestrian_dead-c.prefab using Guid(1c9ae14ee9f0a6f478bffd8a5d667e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f4eb02ed9bf37695636ab68eff65e0') in 0.028527 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-shirt-dead-a.prefab
+  artifactKey: Guid(ebcad93eff5c1034e9bd361f301a54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-shirt-dead-a.prefab using Guid(ebcad93eff5c1034e9bd361f301a54ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0ea2a2857cabbbf33fe7265e84b4a8') in 0.037152 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-shirt-dead-b.prefab
+  artifactKey: Guid(1cabf858e613d174b8e520f87fcf2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-shirt-dead-b.prefab using Guid(1cabf858e613d174b8e520f87fcf2566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eff4f3cd6f6791648cab99879ac282') in 0.034514 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.127397 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-tie-dead-b.prefab
+  artifactKey: Guid(6a4f74c6cbc8daa48a1913765389d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/man-tie-dead-b.prefab using Guid(6a4f74c6cbc8daa48a1913765389d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb872999d5c38a99433d264096fd816') in 0.028131 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/mattress-pile-apocalypse.prefab
+  artifactKey: Guid(7d6bf3d08d43c2b40875f44b72f85027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/mattress-pile-apocalypse.prefab using Guid(7d6bf3d08d43c2b40875f44b72f85027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6193ea6a8724f4339d82904b40e9d4d8') in 0.036312 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.150153 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/military-truck-apocalypse.prefab
+  artifactKey: Guid(2c342ef177017794385aa8f988771e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/military-truck-apocalypse.prefab using Guid(2c342ef177017794385aa8f988771e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7439b58f928506b405f9a11199d13061') in 0.033446 seconds 
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/pool-inflatable-drained.prefab
+  artifactKey: Guid(f187f0829593bd44aaa6bdcebe464735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/pool-inflatable-drained.prefab using Guid(f187f0829593bd44aaa6bdcebe464735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff47592dacb8f75c6f5861601c583ea') in 0.033035 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.055718 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/power-line-pole-apocalypse-a.prefab
+  artifactKey: Guid(2294cd7765a011943882aa498d6307f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/power-line-pole-apocalypse-a.prefab using Guid(2294cd7765a011943882aa498d6307f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f10fb1a198cead3dd3afb68d93c99c5') in 0.037095 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/rubble-apocalypse-c.prefab
+  artifactKey: Guid(6fd44be03c386334b8ce9380bc94ba8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Apocalypse_T/rubble-apocalypse-c.prefab using Guid(6fd44be03c386334b8ce9380bc94ba8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439442f878d6986e213abf65d615fa2b') in 0.038427 seconds 
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
