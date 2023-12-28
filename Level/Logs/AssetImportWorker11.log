@@ -1,0 +1,467 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/peace/Documents/indv_work/Level
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+53429
+Successfully changed project path to: C:/Users/peace/Documents/indv_work/Level
+C:/Users/peace/Documents/indv_work/Level
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8956] Host "[IP] 192.168.180.225 [Port] 0 [Flags] 2 [Guid] 4202288085 [EditorId] 4202288085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BF80HA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8956] Host "[IP] 192.168.180.225 [Port] 0 [Flags] 2 [Guid] 4202288085 [EditorId] 4202288085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BF80HA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 367.75 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/peace/Documents/indv_work/Level/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007822 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 254 ms
+Refreshing native plugins compatible for Editor in 176.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (344ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 212.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2170ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1916ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (832ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5012 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5464.
+Memory consumption went from 214.4 MB to 213.6 MB.
+Total: 4.213700 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.279900 ms MarkObjects: 3.099100 ms  DeleteObjects: 0.448500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83879.414224 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T
+  artifactKey: Guid(b9a1bd8a5750e1346b55d99783a96bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T using Guid(b9a1bd8a5750e1346b55d99783a96bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fa1d12b2847593f48c4cfe4152f529') in 0.033402 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.658367 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/cave-skull.prefab
+  artifactKey: Guid(10ba00bacc400d349ae0bc6a9bff5abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/cave-skull.prefab using Guid(10ba00bacc400d349ae0bc6a9bff5abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5725ef15c0db66e86c322f6a0c45785a') in 0.538465 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 18.688896 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-oval_orange.prefab
+  artifactKey: Guid(16c6ecb322f65d1498b1b8b303ba2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-oval_orange.prefab using Guid(16c6ecb322f65d1498b1b8b303ba2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb60499f9f48fdde3b67363f6dc1d40') in 0.031686 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-pointy_white.prefab
+  artifactKey: Guid(f3195d7eecbb61a42a70359a920a09c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-pointy_white.prefab using Guid(f3195d7eecbb61a42a70359a920a09c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f926f929bfb50a6d335e91bcdea004') in 0.038571 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.419872 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-round_brown.prefab
+  artifactKey: Guid(fbc9c80d06a1141eca6e8565ad520c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-round_brown.prefab using Guid(fbc9c80d06a1141eca6e8565ad520c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e597e5c571a2d463981b1f472a542dc8') in 0.030489 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-small_brown.prefab
+  artifactKey: Guid(e23f1f429b8014fe3a8b083d568be8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-small_brown.prefab using Guid(e23f1f429b8014fe3a8b083d568be8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb3b337c91f6af1625f250ec41a6272') in 0.035291 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-small_white.prefab
+  artifactKey: Guid(3ee6164a9d9cf974ca3e2e31c3e866a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-small_white.prefab using Guid(3ee6164a9d9cf974ca3e2e31c3e866a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a970e17d50926f264c0dbde2868cfc6') in 0.030264 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.498995 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-snow.prefab
+  artifactKey: Guid(87e8ac615d3b3034d940f3e847066256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Nature_T/Stones_T/stone-snow.prefab using Guid(87e8ac615d3b3034d940f3e847066256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c3c03067a444aaafa755c2768012f2') in 0.019078 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 127.343756 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/63 EMISSION-GREEN-LPUP.mat
+  artifactKey: Guid(c78b6e378cced6e49b9586bae01cbc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/Emission/63 EMISSION-GREEN-LPUP.mat using Guid(c78b6e378cced6e49b9586bae01cbc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf6ccaafcde1b12b4c05a5736216d39') in 0.053205 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/64 GLASS-NIGHT-LPUP.mat
+  artifactKey: Guid(ac0561686028e98488de312b47d5587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/64 GLASS-NIGHT-LPUP.mat using Guid(ac0561686028e98488de312b47d5587d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495cfb3df99e5cad9bc6939ac3df7356') in 0.031768 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.910072 seconds.
+  path: Assets/polyperfect
+  artifactKey: Guid(729a3af474adafb4b80d1dcccec0e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect using Guid(729a3af474adafb4b80d1dcccec0e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee9ae5b5d70bd6ad7d4b747a76249d0') in 0.019993 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.490956 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(57ccc3214cd5a5d409486447b48f97d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings using Guid(57ccc3214cd5a5d409486447b48f97d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1057f1a051766bebac677bbbabd723d9') in 0.014751 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 111.283952 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/1 SKIN-DARKEST-LPUP.mat
+  artifactKey: Guid(7e05ef7409d694c74a16dec33c316bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/1 SKIN-DARKEST-LPUP.mat using Guid(7e05ef7409d694c74a16dec33c316bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d822fcd938a55ed27c6b38c9f570d07') in 0.025001 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/9 BROWN-DARKEST-LPUP.mat
+  artifactKey: Guid(3b20fc9e84b968641b7312bdcdd1ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/9 BROWN-DARKEST-LPUP.mat using Guid(3b20fc9e84b968641b7312bdcdd1ffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285f7eee7ae81cecf84d5438365659b9') in 0.030190 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/7 SKIN-WHITE-LPUP.mat
+  artifactKey: Guid(816a1e9d58d34d34b85cfabc577a2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/7 SKIN-WHITE-LPUP.mat using Guid(816a1e9d58d34d34b85cfabc577a2fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3033ada75b97e8f859585a8b3235e948') in 0.031881 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/10 BROWN-DARK-LPUP.mat
+  artifactKey: Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/10 BROWN-DARK-LPUP.mat using Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf61d9402d677ae5b05452db4ff33ef7') in 0.027166 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/20 GREY-LPUP.mat
+  artifactKey: Guid(5fe0aebe85b574b4a94e74712f0aa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/20 GREY-LPUP.mat using Guid(5fe0aebe85b574b4a94e74712f0aa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef00d5cde56513ca8860551a7323beb') in 0.030526 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/21 GREY-LIGHT-LPUP.mat
+  artifactKey: Guid(31b29cea830e0e24da72018652e5ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/21 GREY-LIGHT-LPUP.mat using Guid(31b29cea830e0e24da72018652e5ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe54b8eca3421419d2ccf112e44559b2') in 0.029944 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/13 BROWN-LIGHT-LPUP.mat
+  artifactKey: Guid(3193cf6cf65b8a748b1a843c78e6c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/13 BROWN-LIGHT-LPUP.mat using Guid(3193cf6cf65b8a748b1a843c78e6c26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ffd022f00590ded06e56ca17547213') in 0.027036 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/14 BROWN LIGHTEST-LPUP.mat
+  artifactKey: Guid(a7862d5615928c34e868320de65c2777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/14 BROWN LIGHTEST-LPUP.mat using Guid(a7862d5615928c34e868320de65c2777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a95dff900b457de45e27423e1ab0db4') in 0.024728 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/4 SKIN-LPUP.mat
+  artifactKey: Guid(e4149755fc1d98a498388cedff353ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/4 SKIN-LPUP.mat using Guid(e4149755fc1d98a498388cedff353ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37a2269c60980f23665fa388153233b') in 0.032178 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/3 SKIN-MEDIUM-LPUP.mat
+  artifactKey: Guid(1fff089ce117d4f04a4c4fb00168f400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/3 SKIN-MEDIUM-LPUP.mat using Guid(1fff089ce117d4f04a4c4fb00168f400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4619be5ed1ec4361610856ef688d5') in 0.030229 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.729180 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/23 GREY-WHITE-LPUP.mat
+  artifactKey: Guid(579080bda9f89ee42a5447d6d997e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/23 GREY-WHITE-LPUP.mat using Guid(579080bda9f89ee42a5447d6d997e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0870dfef48597fedb5735ae233b9c480') in 0.018941 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/28 ORANGE-LPUP.mat
+  artifactKey: Guid(700ae469e5be9ac4095d29b97116027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/28 ORANGE-LPUP.mat using Guid(700ae469e5be9ac4095d29b97116027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0d4c16a2aa1f95a3064f2f5122a989') in 0.024021 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/30 YELLOW-LPUP.mat
+  artifactKey: Guid(42caffe1132386f4daa037a9663088b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/30 YELLOW-LPUP.mat using Guid(42caffe1132386f4daa037a9663088b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab378d58015bec19d920c31da3a9da70') in 0.030495 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.390169 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/31 YELLOW-LIGHT-LPUP.mat
+  artifactKey: Guid(a6c5db515b4e26a468041e9e22e41af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/31 YELLOW-LIGHT-LPUP.mat using Guid(a6c5db515b4e26a468041e9e22e41af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef333bc2554e7cb729c21619da88295') in 0.023247 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/46 BLUE-LIGHEST-LPUP.mat
+  artifactKey: Guid(b9bae1e20222386438bc64a9a3089d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/46 BLUE-LIGHEST-LPUP.mat using Guid(b9bae1e20222386438bc64a9a3089d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e914fcc509b35cc594cf6cdbc07829') in 0.028685 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/43 BLUE-MEDIUM-LPUP.mat
+  artifactKey: Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/43 BLUE-MEDIUM-LPUP.mat using Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b532ecb06c2431bbe6534b3103ccf1a0') in 0.029218 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/41 BLUE-DARKEST-LPUP.mat
+  artifactKey: Guid(d5077596fd03948479386c08b1c99fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/41 BLUE-DARKEST-LPUP.mat using Guid(d5077596fd03948479386c08b1c99fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccbfdf87fd15bb87bc0b7af6b1fb41f') in 0.028782 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/39 GREEN-WHITE-LPUP.mat
+  artifactKey: Guid(668dd8403bdfc6347a3f5b1c412defa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/39 GREEN-WHITE-LPUP.mat using Guid(668dd8403bdfc6347a3f5b1c412defa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9a1d2bc811d1daaa7335a6e9e199d9') in 0.025131 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/38 GREEN-LIGHTEST-LPUP.mat
+  artifactKey: Guid(7bcfec495539b3b4ba46f415eebf76ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/38 GREEN-LIGHTEST-LPUP.mat using Guid(7bcfec495539b3b4ba46f415eebf76ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf68ca5f0e41889c6df2f6eae1149c49') in 0.027056 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/34 GREEN-DARK-LPUP.mat
+  artifactKey: Guid(2a9bcab9060d28d468fc3c4d93775e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/34 GREEN-DARK-LPUP.mat using Guid(2a9bcab9060d28d468fc3c4d93775e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f36042702f203b48c6039a2d4ac2e2') in 0.027393 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.232033 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/47 BLUE-WHITE-LPUP.mat
+  artifactKey: Guid(5f35ae9530edec84085e28d4c3302e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/47 BLUE-WHITE-LPUP.mat using Guid(5f35ae9530edec84085e28d4c3302e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca79bf9180ef1256180e48801091fe0') in 0.024477 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/50 PINK-DARK-LPUP.mat
+  artifactKey: Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/50 PINK-DARK-LPUP.mat using Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65b52fb33ef5ffce638b0097907d6db') in 0.028355 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/51 PINK-MEDIUM-LPUP.mat
+  artifactKey: Guid(52410f6a55176644687c0eddd00feddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/51 PINK-MEDIUM-LPUP.mat using Guid(52410f6a55176644687c0eddd00feddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440b4e535f6bdd7fc256f36e07397978') in 0.028092 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/58 WHITE-LPUP.mat
+  artifactKey: Guid(11a8c080607cf47c299aff53087e0334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/58 WHITE-LPUP.mat using Guid(11a8c080607cf47c299aff53087e0334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0671ac5ce2f05f6b7eca02a47e6791') in 0.027172 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.582334 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Animals_M
+  artifactKey: Guid(e69204139e5e67848abcee1d5f6dc72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Meshes_M/Animals_M using Guid(e69204139e5e67848abcee1d5f6dc72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e944c058b3b6c61c9c2a12284cf8f5a') in 0.016780 seconds 
+Number of asset objects unloaded after import = 0

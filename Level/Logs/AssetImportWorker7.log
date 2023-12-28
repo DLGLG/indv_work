@@ -1,0 +1,815 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/peace/Documents/indv_work/Level
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+53429
+Successfully changed project path to: C:/Users/peace/Documents/indv_work/Level
+C:/Users/peace/Documents/indv_work/Level
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4844] Host "[IP] 192.168.180.225 [Port] 0 [Flags] 2 [Guid] 1939679560 [EditorId] 1939679560 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BF80HA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4844] Host "[IP] 192.168.180.225 [Port] 0 [Flags] 2 [Guid] 1939679560 [EditorId] 1939679560 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2BF80HA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 375.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/peace/Documents/indv_work/Level/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007535 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 246 ms
+Refreshing native plugins compatible for Editor in 204.42 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (686ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (338ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (205ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 198.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1805ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1569ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1066ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (199ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5012 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5464.
+Memory consumption went from 214.4 MB to 213.6 MB.
+Total: 3.966600 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.333300 ms MarkObjects: 2.932500 ms  DeleteObjects: 0.307900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82905.150136 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Furniture_T/bag-storage-small.prefab
+  artifactKey: Guid(0deef837570197746aeac5af9b8b6fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Furniture_T/bag-storage-small.prefab using Guid(0deef837570197746aeac5af9b8b6fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20a3332357b20b7c2c87f6513a0b204') in 0.570381 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.898739 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/balloons-bunch-more.prefab
+  artifactKey: Guid(4573ce1962846514089569e2ae4cc85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/balloons-bunch-more.prefab using Guid(4573ce1962846514089569e2ae4cc85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ababdaf46a9126950831ff4f80fae053') in 0.028854 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cargo-shipping_green.prefab
+  artifactKey: Guid(6d17f1c03ddba4bd982e6a259539d272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cargo-shipping_green.prefab using Guid(6d17f1c03ddba4bd982e6a259539d272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9fe3fdbbcbca209f0b2ecc8670a6d0') in 0.043851 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cap-baseball.prefab
+  artifactKey: Guid(1d1e584c101c4194aab749221ccd3a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cap-baseball.prefab using Guid(1d1e584c101c4194aab749221ccd3a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e540b18bca72a5ef2edd03660b9938') in 0.041350 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cake-wedding.prefab
+  artifactKey: Guid(353f7c871954b7f479e3d54c0cff2264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cake-wedding.prefab using Guid(353f7c871954b7f479e3d54c0cff2264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad26e7d1ecf93aa3158454bdb7a7216f') in 0.036322 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cargo-shipping_blue.prefab
+  artifactKey: Guid(aa5dc305ea229487caa944e36d991189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cargo-shipping_blue.prefab using Guid(aa5dc305ea229487caa944e36d991189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e07963e655397941d192c470baf97fd') in 0.042511 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cargo-shipping_white.prefab
+  artifactKey: Guid(9712b31cf233f4e6a838854084ab4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Props_T/cargo-shipping_white.prefab using Guid(9712b31cf233f4e6a838854084ab4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48b5a2c5241d90be7843589d5c1d09c') in 0.040333 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.236176 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/broom.prefab
+  artifactKey: Guid(cb6020a7d541b4c2bbb840aebd875c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/broom.prefab using Guid(cb6020a7d541b4c2bbb840aebd875c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36ba23c25281a41ff42136c10cb949a') in 0.029502 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/brush-straight-wide-paint.prefab
+  artifactKey: Guid(e5cd73d6d2d54364ba796bb92d128fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/brush-straight-wide-paint.prefab using Guid(e5cd73d6d2d54364ba796bb92d128fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b475b98aed1c933dd550cbbb50a1a9e') in 0.037600 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/brush-square.prefab
+  artifactKey: Guid(5f95d7943cb4b6f46a91c2620cc6bee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/brush-square.prefab using Guid(5f95d7943cb4b6f46a91c2620cc6bee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff634c30628a64cccac4f88ed7db6f') in 0.035414 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/cane.prefab
+  artifactKey: Guid(b528367ea109e564ca3db1ab07edeedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/cane.prefab using Guid(b528367ea109e564ca3db1ab07edeedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cd434c3ad952b0edd12cbb3d355a28') in 0.035490 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/garden-hoe.prefab
+  artifactKey: Guid(2b230daaf3f02024aa2d19795a2c4d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/garden-hoe.prefab using Guid(2b230daaf3f02024aa2d19795a2c4d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad736b39031c7e57f1a85a9fe00cc922') in 0.036656 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/caulking-gun.prefab
+  artifactKey: Guid(d3e59aa4d3f32d24bbbc33cfba4bd4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/caulking-gun.prefab using Guid(d3e59aa4d3f32d24bbbc33cfba4bd4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea557d76cff0e10246615a6422cb3d34') in 0.036171 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/fish-line.prefab
+  artifactKey: Guid(52a305e5a3c628346b208499234405bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/fish-line.prefab using Guid(52a305e5a3c628346b208499234405bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86eeed97af84039965a0667308e14a7') in 0.035486 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/brush-straight-wide.prefab
+  artifactKey: Guid(7383a94ced299ac45b0abdc665fa88a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tools_T/brush-straight-wide.prefab using Guid(7383a94ced299ac45b0abdc665fa88a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f8314779de7c1008cb8a7061c0d8a3') in 0.033037 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.019478 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-golf-green-circle-nb.prefab
+  artifactKey: Guid(4e7c1af2efe0f2b4ab8345c663cfefd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-golf-green-circle-nb.prefab using Guid(4e7c1af2efe0f2b4ab8345c663cfefd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931c5242292ea1925997edd76faaabc6') in 0.024933 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-golf-green-nb.prefab
+  artifactKey: Guid(36480d5c8087cc64794aae02cfdb03c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-golf-green-nb.prefab using Guid(36480d5c8087cc64794aae02cfdb03c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ae5e6a8c72c991534ea41f0b732631') in 0.034099 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-curve-nb.prefab
+  artifactKey: Guid(25f45ea8f9301734fa55405ef89fc708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-curve-nb.prefab using Guid(25f45ea8f9301734fa55405ef89fc708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e82320ae9da02383241554d80f4b45') in 0.033070 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-hill-nb.prefab
+  artifactKey: Guid(07eefd55199d1c34f8e337aa1b295095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-hill-nb.prefab using Guid(07eefd55199d1c34f8e337aa1b295095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce92cec636739c42a282be787813bca4') in 0.035858 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-tunnel-entrance-nb.prefab
+  artifactKey: Guid(700511f4a8e293741b1d5bcaf312dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-tunnel-entrance-nb.prefab using Guid(700511f4a8e293741b1d5bcaf312dd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1074344f3903c49390c406a7c0a9ac') in 0.034837 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-road-intersection-nb.prefab
+  artifactKey: Guid(4febd865910e22d46821a63270d21a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-mainroad-road-intersection-nb.prefab using Guid(4febd865910e22d46821a63270d21a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86914fc0c835ccfe190c26925b4e3ace') in 0.036071 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-hill-nb.prefab
+  artifactKey: Guid(2b22f5f589c727449b314903c77d71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-hill-nb.prefab using Guid(2b22f5f589c727449b314903c77d71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c46cf18ecfb9363209f707cdc2f15') in 0.035774 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-hill-askew-valley-corner-nb.prefab
+  artifactKey: Guid(5cd1ab09cb9968c46a2f94e20d8b1cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-hill-askew-valley-corner-nb.prefab using Guid(5cd1ab09cb9968c46a2f94e20d8b1cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f213411d06551b937807d0e4b94893ba') in 0.031655 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.024819 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/ground-cracked_dry.prefab
+  artifactKey: Guid(763ec83b84e5ab5419a4ca657b002e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/ground-cracked_dry.prefab using Guid(763ec83b84e5ab5419a4ca657b002e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb9ba1725d1d06f927fb656b9072e1b') in 0.027745 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/terrain-mountain-range.prefab
+  artifactKey: Guid(94ac6c4ade9ea4ad3b68abed356206d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/terrain-mountain-range.prefab using Guid(94ac6c4ade9ea4ad3b68abed356206d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ee0d4e6f46cbaad4424aa964f33b98') in 0.034179 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/hexagon-land.prefab
+  artifactKey: Guid(5bec618253d9544c19db1fcf97aaf695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/hexagon-land.prefab using Guid(5bec618253d9544c19db1fcf97aaf695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905f630ba11eb6c7e5dabc4afb238d28') in 0.059575 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/hexagon-water.prefab
+  artifactKey: Guid(d2e0052481eba4036af6da9fbcf508a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/hexagon-water.prefab using Guid(d2e0052481eba4036af6da9fbcf508a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b303d195996a4c5b322eb06cbb8f19a') in 0.051722 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 14.221019 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-hill3.prefab
+  artifactKey: Guid(7be8268653d42422aadd8b716dd5699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-hill3.prefab using Guid(7be8268653d42422aadd8b716dd5699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d961252e7da974868a470083cf3b16') in 0.026759 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-valley3.prefab
+  artifactKey: Guid(95fd4011e5dc54ec19166638fecda520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-valley3.prefab using Guid(95fd4011e5dc54ec19166638fecda520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d98b74492d105d51dbab130004d4878') in 0.040243 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-water.prefab
+  artifactKey: Guid(712c15e0aeeda443fa3cf58f5a46217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-water.prefab using Guid(712c15e0aeeda443fa3cf58f5a46217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7ccff6d1718807b15add992c2c3699') in 0.041237 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-lake.prefab
+  artifactKey: Guid(df230af8f7b6a4fa888d7de0489f4bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-lake.prefab using Guid(df230af8f7b6a4fa888d7de0489f4bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414f5eea9548b75b46a6008d7ac227f7') in 0.039257 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-valley4.prefab
+  artifactKey: Guid(9019de83783d94439b65fbc74fa34b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Planes_T/terrain-plane-valley4.prefab using Guid(9019de83783d94439b65fbc74fa34b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10bcc6825c60c2965667ea12ed42733') in 0.036759 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.600604 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-hill3.prefab
+  artifactKey: Guid(b829c412628fe4c1fad5bbdf43bcf106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-hill3.prefab using Guid(b829c412628fe4c1fad5bbdf43bcf106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827ec73701eedc2ce1bb58d499fcc262') in 0.028447 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-valley4.prefab
+  artifactKey: Guid(ea8cbb2aa18044b728da9e82fbcbc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-valley4.prefab using Guid(ea8cbb2aa18044b728da9e82fbcbc054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88501b9cc76766a3173fcb72ba6a07ec') in 0.038568 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-lake.prefab
+  artifactKey: Guid(caa8ba5a33f284e2fb4ba323557c790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-lake.prefab using Guid(caa8ba5a33f284e2fb4ba323557c790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e4c87dab393afe48ca1fa98b51136f') in 0.035761 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/world-field.prefab
+  artifactKey: Guid(2916a5e64fe8149e7a27a2b01b264fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/world-field.prefab using Guid(2916a5e64fe8149e7a27a2b01b264fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a15b5d84123da495391bba92705bf') in 0.037745 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-valley1.prefab
+  artifactKey: Guid(c7caebb674a624c5bb29e63272811c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-valley1.prefab using Guid(c7caebb674a624c5bb29e63272811c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad38bb65ac1e4c32905b2cf9b03d7451') in 0.039773 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-slope4.prefab
+  artifactKey: Guid(717e77442e9fc4956bb05fa999e7d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/terrain-world-slope4.prefab using Guid(717e77442e9fc4956bb05fa999e7d759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a292dc99e6dfdad3bed2c4ba1b75b2') in 0.037050 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/world-forest.prefab
+  artifactKey: Guid(f106645b4d5884ba2a7aa1f6439fc9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Worlds_T/world-forest.prefab using Guid(f106645b4d5884ba2a7aa1f6439fc9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee5a078923a2818c3f99c6616de1214') in 0.039662 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5.572837 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Islands_T/island-sand-tiny.prefab
+  artifactKey: Guid(e3abd832686f12e4fb3a4fa7f258e199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Islands_T/island-sand-tiny.prefab using Guid(e3abd832686f12e4fb3a4fa7f258e199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b339965f400ffa6a69828f2bf8d55e7') in 0.028118 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Islands_T/island-tiny.prefab
+  artifactKey: Guid(e359dc03483cc1441849264cdeb925a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Islands_T/island-tiny.prefab using Guid(e359dc03483cc1441849264cdeb925a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfcd57a5ff5ecf85a2391860887680d') in 0.040130 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.970129 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Hexagons_T/hexagon-sand.prefab
+  artifactKey: Guid(4601f921d60d341d387570ecf26a007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Hexagons_T/hexagon-sand.prefab using Guid(4601f921d60d341d387570ecf26a007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7396a4cd6b4b0c278075de188833f5e7') in 0.026992 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Hexagons_T/hexagon-stone.prefab
+  artifactKey: Guid(18f35b3597c644928bc6e3f3d9458d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Terrains_T/Hexagons_T/hexagon-stone.prefab using Guid(18f35b3597c644928bc6e3f3d9458d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158254bf56f53bb0854c3fb92205742d') in 0.038244 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.799200 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-plain-hump-nb.prefab
+  artifactKey: Guid(9e6cdb8e34a625c4da0f40fc2aba6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-plain-hump-nb.prefab using Guid(9e6cdb8e34a625c4da0f40fc2aba6bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021fa14934ba21924c90bfdcfba3d834') in 0.032460 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-plain-nb.prefab
+  artifactKey: Guid(6e20eed2b08a2a64090d6db94e42104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-plain-nb.prefab using Guid(6e20eed2b08a2a64090d6db94e42104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea098a55ce0487de3f21aea34ee41b5') in 0.037663 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-plain_dirt-nb.prefab
+  artifactKey: Guid(3849d3d3aa68a4d468a866c87e247b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-plain_dirt-nb.prefab using Guid(3849d3d3aa68a4d468a866c87e247b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c74c5bf42504b7b96566841f200a9dc') in 0.032243 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3.585996 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-cliff-curve-nb.prefab
+  artifactKey: Guid(17e2ce0c82377fd44b32d5aa4b4b7b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-cliff-curve-nb.prefab using Guid(17e2ce0c82377fd44b32d5aa4b4b7b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15aa3790b5e58717471912737788c45') in 0.034615 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-cliff-overpass-nb.prefab
+  artifactKey: Guid(6cce4dc959861a54eaf800d733ce87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-cliff-overpass-nb.prefab using Guid(6cce4dc959861a54eaf800d733ce87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce6dfd413e6a5ce68f7a84dff269264') in 0.041039 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-hill-nb.prefab
+  artifactKey: Guid(2b70d702216e442418a948c30431530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-hill-nb.prefab using Guid(2b70d702216e442418a948c30431530d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9984a1146cd8ea6af333ec2c0da2ddf') in 0.040092 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-straight-curbs-sand-nb.prefab
+  artifactKey: Guid(ab57815d409a3c844acec232dea17aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-straight-curbs-sand-nb.prefab using Guid(ab57815d409a3c844acec232dea17aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23114f42d7357eb6bfb984f8cd9e6e8c') in 0.036647 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-cliff-nb.prefab
+  artifactKey: Guid(d7c8c9cc84300844f8442f0e2aeeb610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-race-track-cliff-nb.prefab using Guid(d7c8c9cc84300844f8442f0e2aeeb610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f70912055e3ad51cee0033c820fe1') in 0.033043 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-curve-double-nb.prefab
+  artifactKey: Guid(317201c9e4fda3a4aa1a5602d6a3e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-curve-double-nb.prefab using Guid(317201c9e4fda3a4aa1a5602d6a3e745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806e703059f0f66aa9bd0ef264174ba') in 0.036743 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-hill-tunnel-entrance-nb.prefab
+  artifactKey: Guid(fd263d434ac6bca4ca6d51d86637cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-hill-tunnel-entrance-nb.prefab using Guid(fd263d434ac6bca4ca6d51d86637cb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a5bbb0bced912113fedaea1b81df1d') in 0.037054 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.563044 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-straight-double-nb.prefab
+  artifactKey: Guid(1e43f9dfcd231ac499049fb42ebce35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-straight-double-nb.prefab using Guid(1e43f9dfcd231ac499049fb42ebce35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a998c637ece2c760442e879f13f55b0c') in 0.027328 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-straight-nb.prefab
+  artifactKey: Guid(da1e964fc3f5de94ba149e27d6001709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-straight-nb.prefab using Guid(da1e964fc3f5de94ba149e27d6001709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63dd782116dd5e1fd8eb619a7b98fc4') in 0.038484 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-river-basin-hill-nb.prefab
+  artifactKey: Guid(bda8d8ff40f93f642ad32c38db27f15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-river-basin-hill-nb.prefab using Guid(bda8d8ff40f93f642ad32c38db27f15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c2f63a16f149ac1357d42ae01e8196') in 0.036795 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-end-nb.prefab
+  artifactKey: Guid(e9e6c2fcc05a16947b4cb3ce424d81b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-end-nb.prefab using Guid(e9e6c2fcc05a16947b4cb3ce424d81b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc9fd787ab51d3a1cb4712b82fa838c') in 0.034292 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-tunnel-entrance-nb.prefab
+  artifactKey: Guid(29dc2f4694ca17b498a6cd646dd7ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-tunnel-entrance-nb.prefab using Guid(29dc2f4694ca17b498a6cd646dd7ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24adad6eef359fa4dd4e688cc7d12ea') in 0.032294 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-straight-crosswalk-nb.prefab
+  artifactKey: Guid(4a66cd488075fd2418a00f283125cf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-straight-crosswalk-nb.prefab using Guid(4a66cd488075fd2418a00f283125cf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4df2c4360ebf9650c2e28250b494f1') in 0.034202 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-y-nb 1.prefab
+  artifactKey: Guid(78a4b84a3512b714aaf5de9589df504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-rail-y-nb 1.prefab using Guid(78a4b84a3512b714aaf5de9589df504b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c0ad666424da4e15a65fda0a983294') in 0.034073 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.360349 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-to-mainroad-nb.prefab
+  artifactKey: Guid(659765a97bd670c46a7c1ed1b53b06ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-to-mainroad-nb.prefab using Guid(659765a97bd670c46a7c1ed1b53b06ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0980258fcaebc5ff12abb08052953a2f') in 0.027655 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-tunnel-entrance-nb.prefab
+  artifactKey: Guid(3e8e318524d28cc4db41ce01dfe9d378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-tunnel-entrance-nb.prefab using Guid(3e8e318524d28cc4db41ce01dfe9d378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bed3c5500bd8b3a84b4be601bf2dace') in 0.038225 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-runway-turn-nb.prefab
+  artifactKey: Guid(80baa0f7834f3d44ea469a46d2474c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-runway-turn-nb.prefab using Guid(80baa0f7834f3d44ea469a46d2474c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfffb319ec30db84aa3a1aedd30eb81') in 0.037678 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-runway-intersection-t-nb.prefab
+  artifactKey: Guid(b04e5758fcc3ee04bbb1bb2dbf141f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-runway-intersection-t-nb.prefab using Guid(b04e5758fcc3ee04bbb1bb2dbf141f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5758fa89ca68b8d21591139316dd63') in 0.038192 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-tunnel-curve-nb.prefab
+  artifactKey: Guid(52521da0e5a81fa4da1ab23aeb023e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-road-tunnel-curve-nb.prefab using Guid(52521da0e5a81fa4da1ab23aeb023e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72763aca93fcd6d1a950ac19e51fe0f') in 0.031141 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.231384 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-sidewalk-intersection-t-nb.prefab
+  artifactKey: Guid(4255a382de5ff0b459e310043592037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-sidewalk-intersection-t-nb.prefab using Guid(4255a382de5ff0b459e310043592037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584ced7b24c363988c688eae272a084f') in 0.028193 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-water-nb.prefab
+  artifactKey: Guid(73b1d213ed2eb684bbc87d693075a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles-NB_T/tile-water-nb.prefab using Guid(73b1d213ed2eb684bbc87d693075a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5e0b7bc48d7108bac2b22b1850b58a') in 0.037472 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 73.806230 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-plain_grass.prefab
+  artifactKey: Guid(63f209a73d2eb4e469c7ea5b5d8afd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-plain_grass.prefab using Guid(63f209a73d2eb4e469c7ea5b5d8afd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ed029f98b14c4a681dda1441f1fa6f') in 0.031030 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-sidewalk-intersection-t.prefab
+  artifactKey: Guid(12bd84760a20d8f489146dccaca5f8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-sidewalk-intersection-t.prefab using Guid(12bd84760a20d8f489146dccaca5f8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b31c10dc47434aac2b68d0d2722abd') in 0.038814 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-sidewalk-straight.prefab
+  artifactKey: Guid(75d81529967ddb94d9f1a545118b4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-sidewalk-straight.prefab using Guid(75d81529967ddb94d9f1a545118b4896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a1537b60554eb343fcd79e569f5b06') in 0.040976 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-water.prefab
+  artifactKey: Guid(d70779e319d6941b5bf515de3b125fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-water.prefab using Guid(d70779e319d6941b5bf515de3b125fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a429669d1b89372b5bfb885712f2e202') in 0.035848 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-sidewalk-end.prefab
+  artifactKey: Guid(519cc632632a9f24b94676e505d848c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-sidewalk-end.prefab using Guid(519cc632632a9f24b94676e505d848c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13de435f9608ca90d4ee2e3ceb7d05a') in 0.033042 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-river-basin.prefab
+  artifactKey: Guid(bd275473ee6f6254e96b5ce17c6d0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-river-basin.prefab using Guid(bd275473ee6f6254e96b5ce17c6d0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87470657bfdef3a494aeeb723d202aa5') in 0.036349 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.652930 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill.prefab
+  artifactKey: Guid(b03682e80df194decb8bda3b24eabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill.prefab using Guid(b03682e80df194decb8bda3b24eabfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928aaed5c34c5448dae9dbb1aac83d17') in 0.025664 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-plain_concrete.prefab
+  artifactKey: Guid(694c23563628a4178bcd3bf91226687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-plain_concrete.prefab using Guid(694c23563628a4178bcd3bf91226687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7b3a94ad3070aad96de559c0cc4c6') in 0.032459 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill-curve.prefab
+  artifactKey: Guid(46834ef69e0d8184b9e00e12edbf5e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill-curve.prefab using Guid(46834ef69e0d8184b9e00e12edbf5e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b776bdcdc41b29d3e4dac23e4ca33e4f') in 0.034289 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-golf-sand.prefab
+  artifactKey: Guid(4a4849fb8a4d4f44ca1fa4a0951f27cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-golf-sand.prefab using Guid(4a4849fb8a4d4f44ca1fa4a0951f27cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8afbe0b8884032ae635e5f7f64ebc56') in 0.032092 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill-corner.prefab
+  artifactKey: Guid(c62a792bc853c4c57a3436ac281dcebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill-corner.prefab using Guid(c62a792bc853c4c57a3436ac281dcebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300b1f38256f09d1cec3f385bbbcd692') in 0.032780 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-golf-green-circle.prefab
+  artifactKey: Guid(ed96bf7d6cf93464186ea83a8d209554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-golf-green-circle.prefab using Guid(ed96bf7d6cf93464186ea83a8d209554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6968b0879ac031f120d3244962a7cc75') in 0.034676 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill-askew.prefab
+  artifactKey: Guid(699fe17c827d180419256c7f426a55a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Tiles_T/tile-hill-askew.prefab using Guid(699fe17c827d180419256c7f426a55a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910ef132ccbef315b8fef49e5c610c05') in 0.032271 seconds 
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
